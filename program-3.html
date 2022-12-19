@@ -1,20 +1,16 @@
 <script type="text/javascript">
-	/*
-	Print number of weeks
+	/*Print number of weeks
 
 Enter number of weeks:2
 Week1
 Week2
-Week3
-
-	*/
-	let weekName=["week1","week2", "week3", "week4", "week5"];
-	let weekSize=prompt("Enter weekSize 1, 2, 3, 4, 5");
-	weekSize=Number(weekSize);
-	i=0;
-	while(i<weekSize)
+Week3*/
+	let weekName=[`week1`, `week2`, `weeek3`, `week4`, `week5`,];
+	let weeksize=prompt(`Enter weekSize 1, 2, 3, 4, 5`);
+	weeksize=Number(weeksize);
+	for (i=0; i<weeksize; i++) 
 	{
-		document.write("<br/>",weekName[i]);
-		i++;
+		
+		 document.write(`<br/>`,weekName[i])
 	}
 </script>

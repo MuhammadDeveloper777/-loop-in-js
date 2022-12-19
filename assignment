@@ -1,0 +1,37 @@
+Use Do-While Loop:
+==============
+1. Print number of alphabets 
+take input from user
+
+Enter number of alphabets:3
+
+A
+B
+C
+
+2. Print number of week days
+
+Enter Number of Days:2
+Monday
+Tuesday
+
+3. Print number of weeks
+
+Enter number of weeks:2
+Week1
+Week2
+Week3
+
+
+4. Print number of months
+
+Enter number of months:3
+
+Jan
+Feb
+Mar
+
+===============
+Take input from user with prompt and print with do-while loop
+
+ 

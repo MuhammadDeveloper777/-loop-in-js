@@ -1,18 +1,18 @@
 <script type="text/javascript">
-	/*Print number of months
-
-Enter number of months:3
+	/*
+	Enter number of months:3
 
 Jan
 Feb
-Mar*/
-	let monthName=[`janury`, `febrary`, `March`, `April`, `May`];
-	let monthsize=prompt(`Enter monthSize 5`);
-	monthsize=Number(monthsize);
-	for (i=0; i<monthsize; i++) 
+Mar
+	*/
+	let monthName=['January', 'Febrary', 'March', 'April', 'May'];
+	let monthSize=prompt('Enter monthSize 1, 2, 3, 4, 5');
+	monthSize=Number(monthSize);
+	i=0;
+	while(i<monthSize)
 	{
-		
-		document.write(`<br/>`, monthName[i]);
-		 
+		document.write('<br/>', monthName[i]);
+		i++;
 	}
 </script>
